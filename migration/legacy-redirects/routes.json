@@ -1,0 +1,282 @@
+{
+  "oldDomain": "www.juleshaggard.com",
+  "newOrigin": "https://darlingjules.com",
+  "routes": [
+    {
+      "from": "/",
+      "to": "/"
+    },
+    {
+      "from": "/about",
+      "to": "/about"
+    },
+    {
+      "from": "/all-work",
+      "to": "/all-work"
+    },
+    {
+      "from": "/cylinder-home",
+      "to": "/cylinder-home"
+    },
+    {
+      "from": "/jules-haggard-creative-network",
+      "to": "/jules-darling-creative-network"
+    },
+    {
+      "from": "/ok-bloomer",
+      "to": "/ok-bloomer"
+    },
+    {
+      "from": "/ok-bloomer/privacy",
+      "to": "/ok-bloomer/privacy"
+    },
+    {
+      "from": "/pricing",
+      "to": "/pricing"
+    },
+    {
+      "from": "/pricing-old-copy",
+      "to": "/pricing-old-copy"
+    },
+    {
+      "from": "/projects/accolade",
+      "to": "/projects/accolade"
+    },
+    {
+      "from": "/projects/accrue",
+      "to": "/projects/accrue"
+    },
+    {
+      "from": "/projects/airbnb",
+      "to": "/projects/airbnb"
+    },
+    {
+      "from": "/projects/airbo",
+      "to": "/projects/airbo"
+    },
+    {
+      "from": "/projects/arcee-ai",
+      "to": "/projects/arcee-ai"
+    },
+    {
+      "from": "/projects/beats-by-dre",
+      "to": "/projects/beats-by-dre"
+    },
+    {
+      "from": "/projects/beautiful",
+      "to": "/projects/beautiful"
+    },
+    {
+      "from": "/projects/beckley-retreats",
+      "to": "/projects/beckley-retreats"
+    },
+    {
+      "from": "/projects/bitrise",
+      "to": "/projects/bitrise"
+    },
+    {
+      "from": "/projects/bizzabo",
+      "to": "/projects/bizzabo"
+    },
+    {
+      "from": "/projects/brain-drain",
+      "to": "/projects/brain-drain"
+    },
+    {
+      "from": "/projects/chase-travel",
+      "to": "/projects/chase-travel"
+    },
+    {
+      "from": "/projects/clarity-rcm",
+      "to": "/projects/clarity-rcm"
+    },
+    {
+      "from": "/projects/divine",
+      "to": "/projects/divine"
+    },
+    {
+      "from": "/projects/doppl-google-labs",
+      "to": "/projects/doppl-google-labs"
+    },
+    {
+      "from": "/projects/driven-studios",
+      "to": "/projects/driven-studios"
+    },
+    {
+      "from": "/projects/emotive-feels",
+      "to": "/projects/emotive-feels"
+    },
+    {
+      "from": "/projects/evergrow",
+      "to": "/projects/evergrow"
+    },
+    {
+      "from": "/projects/fender",
+      "to": "/projects/fender"
+    },
+    {
+      "from": "/projects/flimp",
+      "to": "/projects/flimp"
+    },
+    {
+      "from": "/projects/frank",
+      "to": "/projects/frank"
+    },
+    {
+      "from": "/projects/gameon",
+      "to": "/projects/gameon"
+    },
+    {
+      "from": "/projects/gitlab",
+      "to": "/projects/gitlab"
+    },
+    {
+      "from": "/projects/google-maps-pegman",
+      "to": "/projects/google-maps-pegman"
+    },
+    {
+      "from": "/projects/granica",
+      "to": "/projects/granica"
+    },
+    {
+      "from": "/projects/hoist",
+      "to": "/projects/hoist"
+    },
+    {
+      "from": "/projects/hybrid",
+      "to": "/projects/hybrid"
+    },
+    {
+      "from": "/projects/ibm-watson",
+      "to": "/projects/ibm-watson"
+    },
+    {
+      "from": "/projects/joyable",
+      "to": "/projects/joyable"
+    },
+    {
+      "from": "/projects/kinemaster",
+      "to": "/projects/kinemaster"
+    },
+    {
+      "from": "/projects/lightcone",
+      "to": "/projects/lightcone"
+    },
+    {
+      "from": "/projects/liveramp",
+      "to": "/projects/liveramp"
+    },
+    {
+      "from": "/projects/material",
+      "to": "/projects/material"
+    },
+    {
+      "from": "/projects/meet-elise",
+      "to": "/projects/meet-elise"
+    },
+    {
+      "from": "/projects/microsoft-windows11",
+      "to": "/projects/microsoft-windows11"
+    },
+    {
+      "from": "/projects/moveworks",
+      "to": "/projects/moveworks"
+    },
+    {
+      "from": "/projects/notebook-lm-google",
+      "to": "/projects/notebook-lm-google"
+    },
+    {
+      "from": "/projects/original-syndicate",
+      "to": "/projects/original-syndicate"
+    },
+    {
+      "from": "/projects/pagoda",
+      "to": "/projects/pagoda"
+    },
+    {
+      "from": "/projects/papa",
+      "to": "/projects/papa"
+    },
+    {
+      "from": "/projects/phils",
+      "to": "/projects/phils"
+    },
+    {
+      "from": "/projects/prometheus-group",
+      "to": "/projects/prometheus-group"
+    },
+    {
+      "from": "/projects/rafa-racing-club",
+      "to": "/projects/rafa-racing-club"
+    },
+    {
+      "from": "/projects/rightcapital",
+      "to": "/projects/rightcapital"
+    },
+    {
+      "from": "/projects/snow",
+      "to": "/projects/snow"
+    },
+    {
+      "from": "/projects/tau",
+      "to": "/projects/tau"
+    },
+    {
+      "from": "/projects/tripactions",
+      "to": "/projects/tripactions"
+    },
+    {
+      "from": "/projects/vita",
+      "to": "/projects/vita"
+    },
+    {
+      "from": "/projects/wish-com",
+      "to": "/projects/wish-com"
+    },
+    {
+      "from": "/services",
+      "to": "/services"
+    },
+    {
+      "from": "/type-specimen",
+      "to": "/type-specimen"
+    },
+    {
+      "from": "/writing/album-art",
+      "to": "/writing/album-art"
+    },
+    {
+      "from": "/writing/cleverness-from-the-collective-unconscious",
+      "to": "/writing/cleverness-from-the-collective-unconscious"
+    },
+    {
+      "from": "/writing/creating-from-the-inside",
+      "to": "/writing/creating-from-the-inside"
+    },
+    {
+      "from": "/writing/designing-and-maintaining-an-emergent-brand",
+      "to": "/writing/designing-and-maintaining-an-emergent-brand"
+    },
+    {
+      "from": "/writing/shedding-ego-in-the-branding-process",
+      "to": "/writing/shedding-ego-in-the-branding-process"
+    },
+    {
+      "from": "/writing/stick-and-poke-tattoos",
+      "to": "/writing/stick-and-poke-tattoos"
+    },
+    {
+      "from": "/writing/superliminal-design",
+      "to": "/writing/superliminal-design"
+    },
+    {
+      "from": "/writing/the-art-of-symbols",
+      "to": "/writing/the-art-of-symbols"
+    },
+    {
+      "from": "/writing/universal-collapse-paintings",
+      "to": "/writing/universal-collapse-paintings"
+    }
+  ]
+}
