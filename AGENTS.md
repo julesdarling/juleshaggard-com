@@ -1,3 +1,5 @@
+> This repository now publishes only legacy domain redirects. For current site changes, use https://github.com/julesdarling/darlingjules-com and https://darlingjules.com. The original Astro source and guidance below are a historical snapshot; preserve the redirect workflow, old CNAME binding, and public media.
+
 # AGENTS.md
 
 ## Purpose

@@ -1,38 +1,11 @@
-# Jules Haggard Website
+# Jules Darling: legacy domain redirects
 
-Static Astro portfolio for `juleshaggard.com`, forked from the `haggard.design` rebuild.
+The current website is [https://darlingjules.com](https://darlingjules.com). Edit and publish it from [julesdarling/darlingjules-com](https://github.com/julesdarling/darlingjules-com).
 
-## Commands
+This repository keeps the `juleshaggard.com` / `www.juleshaggard.com` GitHub Pages domain binding and HTTPS certificate. It publishes the redirect pages in `site/`, preserving page paths, queries, and fragments.
 
-- `npm run dev` starts the local site.
-- `npm run build` builds the static site into `dist/`.
-- `npm run check` runs Astro/TypeScript validation.
-- `npm run verify` checks built routes, local links, local assets, SEO metadata, accessibility basics, and removed CDN/runtime dependencies.
-- `npm run visual` captures live-vs-local comparison screenshots into `artifacts/visual/`.
-- `npm run migrate` re-snapshots the live Webflow site, then reapplies the executive case-study rewrite and sentence-case cleanup.
-- `npm run migrate:raw` re-snapshots the live Webflow site without rewriting case-study text or case cleanup.
-- `npm run rewrite:cases` reapplies the case-study positioning/headline rewrite and sentence-case cleanup.
-- `npm run sentence-case` reapplies sentence case while preserving acronyms.
+The deployment workflow copies existing `public/` media first, then overlays `site/`. Retaining these files keeps old direct media links working. See [migration/legacy-redirects](migration/legacy-redirects/) for the route map and implementation.
 
-## Deployment
+The original Astro `src/`, rebuild scripts, and migration metadata are retained as a historical snapshot. They do not publish the current website. Do not replace the legacy CNAME or redirect bindings with the new domain.
 
-GitHub Pages is deployed through `.github/workflows/deploy.yml`.
-
-- Pushes to `main` run `check`, `build`, and `verify`, then publish `dist/`.
-- The Astro site is configured for `https://www.juleshaggard.com` and root-relative paths.
-- GitHub Pages is configured for `www.juleshaggard.com`; DNS still needs to point there before the domain resolves to this build.
-
-## Editing Content
-
-This site uses repo content as the CMS:
-
-- Page metadata lives in `src/content/pages`, `src/content/projects`, and `src/content/writing`.
-- Rendered page fragments live in `src/content-html/pages`, `src/content-html/projects`, and `src/content-html/writing`.
-- Shared Astro structure lives in `src/layouts`, `src/components`, and `src/pages`.
-- Self-hosted media lives in `public/assets/site`.
-- Render-time HTML cleanup lives in `src/lib/enhanceContent.ts`; it normalizes headings, media attributes, image alt text, external-link rel attributes, and decorative media.
-- Shared SEO settings live in `src/lib/seo.ts`, with generated `robots.txt` and `sitemap.xml` routes in `src/pages`.
-- The current case-study rewrite lives in `scripts/rewrite-case-studies.mjs`, but this fork now carries Jules-focused page and case-study copy directly in the migrated content files.
-- The sentence-case cleanup lives in `scripts/enforce-sentence-case.mjs`; acronyms and initialisms stay capitalized.
-
-The current migration includes all sitemap routes plus `/projects/beats-by-dre`, which is linked publicly but password-protected on the live Webflow site.
+Current personal portfolio: [Jules Darling](https://darlingjules.com/).
